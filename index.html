@@ -17,27 +17,81 @@
       font-size: 20px;
     }
 
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    .margin-logo-text{
+
+      margin-top: 0px;
+    }
+    .margin-logo-img{
+     margin-left: 100px;
+}
+.logo-text-color{
+  color:rgb(0, 0, 255)
+}
+ 
+
 
 </style>
 </head>
  <body>
+  
     
-  
-  
-    <div class="nav-scroller py-1 mb-2">
-      <nav class="nav d-flex justify-content-between">
-        <a class="p-2 link-secondary" href="index.html">Home</a>
-        <a class="p-2 link-secondary" href="news.html">News</a>
-        <a class="p-2 link-secondary" href="yeezy_date.html">Yeezy Release Dates</a>
-        <a class="p-2 link-secondary" href="jordan_release.html">Jordan Release Dates</a>
-        <a class="p-2 link-secondary" href="sneaker_date.html">Sneaker Release Dates</a>
-        <a class="p-2 link-secondary" href="About_Us.html">About Us</a>
-       <a class="link-secondary" href="#" aria-label="Search">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewbox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
-        </a>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand text-primary" href="index.html">
+        <img src="logo.png" alt="Company Logo" width="30" height="30" class="d-inline-block align-text-top ">
+        Sneaker Ways
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="news.html">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="yeezy_date.html">Yeezy Release Dates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="jordan_release.html">Jordan Release Dates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="sneaker_date.html">Sneaker Release Dates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="About_Us.html">About Us</a>
+          </li>
         
-      </nav>
+      
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
+  </nav>
+
+
+  
+  
   
   
   <main class="container">
@@ -90,7 +144,7 @@
   
         <article class="blog-post">
           <h2 class="blog-post-title">Sample blog post</h2>
-          <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
+          <p class="blog-post-meta">January 1, 2021 by <a href="#">Me</a></p>
   
           <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
           <hr>
@@ -102,14 +156,14 @@
   
         <article class="blog-post">
           <h2 class="blog-post-title">Another blog post</h2>
-          <p class="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+          <p class="blog-post-meta">December 23, 2020 by <a href="#">Me</a></p>
   
          
         </article>
   
         <article class="blog-post">
           <h2 class="blog-post-title">New feature</h2>
-          <p class="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+          <p class="blog-post-meta">December 14, 2020 by <a href="#">Me</a></p>
   
           
         </article>
