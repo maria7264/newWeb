@@ -62,4 +62,15 @@ p {
 a:link { text-decoration: none; 
  }
 
+ .sizearl{
+  font-size:48px;
+  margin-left: 40%;
 
+ }
+ .sizearr{
+  font-size:48px;
+  margin-right:40%;
+  
+
+ }
+ 
