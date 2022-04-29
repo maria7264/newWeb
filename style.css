@@ -61,15 +61,29 @@ p {
 
 a:link { text-decoration: none; 
  }
+#de{
+  font-size:48px;
+  margin-left: 65%;
+
+}
+#d1{
+  margin-left: 45%;
+}
+
+#de1{
+  font-size:48px;
+  margin-left: 40%;
+}
 
  .sizearl{
   font-size:48px;
-  margin-left: 40%;
+  margin-left: 39%;
+  margin-right: 1%;
 
  }
  .sizearr{
   font-size:48px;
-  margin-right:40%;
+  margin-right:39%;
   
 
  }
@@ -84,17 +98,127 @@ a:link { text-decoration: none;
 
 
  .sizecr{
-  font-size:40px;
-
+  font-size:48px;
+  margin-right: 35%;
+  margin-left: 2%;
 
  }
  .sizecl{
-  font-size:40px;
+  font-size:48px;
   
-  
+  margin-left:28%;
+
 
  }
 
+
+#north{
+  font-size:48px;
+  margin-left:46%;
+}
+
+
+#meurope{
+  font-size:48px;
+  margin-right: 41%;
+  margin-left:2%;
+
+ }
+#meurope2{
+  font-size:48px;
+  
+  margin-left:35%;
+
+ }
+ #mafrica{
+  font-size:48px;
+  margin-right: 41%;
+  margin-left:2%;
+
+ }
+#mafrica2{
+  font-size:48px;
+  margin-left:37%;
+
+ }
+
+#masia{
+ font-size:48px;
+ margin-right: 43%;
+ margin-left:2%;
+
+}
+#masia2{
+ font-size:48px;
+ margin-left:38%;
+
+}
+
+#maustralia{
+  font-size:48px;
+  margin-right: 43%;
+  margin-left:2%;
+ 
+ }
+
+
+
+
+
+.n{
+  margin-left:40%;
+}
+
+
+
+
+
+
+
+
+
+
 .tsize{
   font-size: 40px;
+}
+#g{
+  font-size: 30px ;
+}
+.text-small{
+  font-size: 15px;
+
+}
+
+
+.bgf {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.bgl{
+  width: 60px;
+  background-color: #0066ff; 
+  height: 2px
+}
+.smallerline{
+  width: 60px; 
+  background-color: #0066ff; 
+  height: 2px
+
+}
+.bgcolor{background-color: #1c2331;
+
+}
+.tresource{
+  font-size: 16px;
+}
+.tcolor{
+  color:rgb(0, 131, 148), !important;
+
+
+}
+.divpad{
+  padding:20px;
+}
+
+.decades{
+  top: 2rem;
 }
